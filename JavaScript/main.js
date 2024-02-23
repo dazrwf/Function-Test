@@ -1,4 +1,4 @@
-let num = prompt("Enter a number:");
+let num = parseInt(prompt("Enter a number:"));
 function comput(num) {
 
   let result = 0;
@@ -13,7 +13,7 @@ for (let p = 0; p <= num; p++) {
     }
   }
   if (sum === num) {
-    document.write(`<h2 class="perfect">${num} is a perfect number</h2>`);
+    document.write(`<h2 class="perfect">${num} is perfect number</h2>`);
   } else {
     document.write(`<h2 class="perfect">${num} is not perfect number</h2>`);
   }
