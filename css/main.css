@@ -1,0 +1,21 @@
+h2{
+    font-size: 22px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    text-align: center;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 30px auto;
+    background-color: orangered;
+    color: whitesmoke;
+    border-radius: 8px;
+}
+body{
+    background-color: #000;
+}
+h2:hover{
+    background-color: orange;
+    color: #000;
+}
